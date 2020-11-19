@@ -1,13 +1,14 @@
-// eslint-disable-next-line
 import logo from './logo.svg';
 import './App.css';
-import greet from "./components/greet.js"
+import Parentcomponent from './components/methodasprops'
 function App() {
   return (
+
     <div className="App">
-     <greet>  </greet>
+       <Parentcomponent />
     </div>
   );
 }
 
 export default App;
+
