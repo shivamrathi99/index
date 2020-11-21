@@ -1,4 +1,4 @@
-// refer to methodsasprops.js
+// refer to methodsasprops.js (parent component)
 import React from 'react'
 
 function Childcomponent(props) {
@@ -8,5 +8,5 @@ function Childcomponent(props) {
         </div>
     )
 }
-
+//jlhjkhj
 export default Childcomponent

@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Parentcomponent from './components/methodasprops'
+import Lists from './components/lists';
+// import Timer from './components/timer'
 function App() {
   return (
 
     <div className="App">
-       <Parentcomponent />
+       {/* <Timer /> */}
+    <Lists />
     </div>
   );
 }
